@@ -1,1 +1,14 @@
+# 教程：https://wiki.metacubex.one/config/rule-providers/content/
+# 通配符规则详见：https://wiki.metacubex.one/handbook/syntax/#_8
 
+#实例：
+# .blogger.com
+#*.*.microsoft.com
+#books.itunes.apple.com
+
+
+# Bing
+# From https://github.com/ACL4SSR/ACL4SSR/issues/121#issuecomment-1793673237
+DOMAIN-SUFFIX,bing.com
+DOMAIN-SUFFIX,copilot.cloud.microsoft
+DOMAIN-SUFFIX,copilot.microsoft.com
